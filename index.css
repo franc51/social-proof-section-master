@@ -5,15 +5,21 @@
 }
 
 body {
-    background-image: url(files/bg-pattern-bottom-desktop.svg);
+    background-color: rgb(238, 243, 247);
     background-size: cover;
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#show-borders{
+  border: none;
+  background-color: aqua;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+#show-borders:hover {
+  scale: 105%;
 }

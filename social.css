@@ -1,41 +1,74 @@
 .star {
   background-image: url(files/icon-star.svg);
+  padding: 1rem;
+}
+.social__star {
+  margin: 0 3px;
 }
 .social__proof {
-  margin: 2rem 5rem;
+  margin: 2rem 20rem;
+  padding: 6rem 8rem;
+  background-color: white;
+  font-family: "League Spartan";
 }
 .social__description {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-  background-color: rgb(187, 236, 236);
 }
 .social__description__text {
-  max-width: 50%;
-  background-color: rgb(190, 190, 255);
+  max-width: 40%;
+
+}
+.social__description__text_title{
+  font-size: 3rem;
+  color: hsl(300, 43%, 22%);
+}
+.social__description__text_paragraph {
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
 }
 .social__description__rating {
-  background-color: rgb(139, 172, 172);
+
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   padding: 1rem;
-  min-width: 50%;
+  min-width: 45%;
 }
 .social__rating__stars {
 }
 .social__rating__stars__single_1 {
   display: flex;
-  background-color: rgb(197, 161, 161);
-  padding: 0.5rem 1rem;
+  width: 26rem;
+  border-radius: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  color: hsl(300, 43%, 22%);
 }
 .social__rating__stars__single_2 {
   display: flex;
-  background-color: rgb(197, 161, 161);
-  padding: 0.5rem 1rem;
+  width: 26rem;
+  border-radius: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1rem 2rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  color: hsl(300, 43%, 22%);
 }
 .social__rating__stars__single_3 {
   display: flex;
-  background-color: rgb(197, 161, 161);
-  padding: 0.5rem 1rem;
+  width: 26rem;
+  border-radius: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1rem 2rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  color: hsl(300, 43%, 22%);
+}
+.social__rating__stars__single_p {
+  margin-left: 1rem;
 }

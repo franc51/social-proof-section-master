@@ -1,5 +1,4 @@
 * {
-<<<<<<< HEAD
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,8 +7,7 @@
 body {
     background-image: url(files/bg-pattern-bottom-desktop.svg);
     background-size: cover;
-}
-=======
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,4 +17,3 @@ body {
   justify-content: center;
   align-items: center;
 }
->>>>>>> fc2af4f77d292ab4982975a610bed213d7a458e3

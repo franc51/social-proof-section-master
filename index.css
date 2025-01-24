@@ -1,17 +1,17 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(238, 243, 247);
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  background-color: rgb(172, 221, 255);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#show-borders{
+#show-borders {
   border: none;
   background-color: aqua;
   padding: 1rem;

@@ -1,24 +1,15 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="social_proof.css">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-</body>
 </html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social proof</title>
-    <link rel="stylesheet" href="social.css" />
+    <link rel="stylesheet" href="social-desktop.css"/>
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="social-mobile.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <button id="show-borders">Show borders</button>
@@ -35,7 +26,7 @@
           </p>
         </div>
         <div class="social__description__rating">
-          <div class="social__rating__stars__single_1">
+          <div class="social__rating__stars__single">
             <img class="social__star"
               class="social__rating__star"
               src="files/icon-star.svg"
@@ -63,7 +54,7 @@
             />
             <p class="social__rating__stars__single_p"><b>Rated 5 stars in Reviews</b></p>
           </div>
-          <div class="social__rating__stars__single_2">
+          <div class="social__rating__stars__single">
             <img class="social__star"
               class="social__rating__star"
               src="files/icon-star.svg"
@@ -91,7 +82,7 @@
             />
             <p class="social__rating__stars__single_p"><b>Rated 5 stars in Report Guru</b></p>
           </div>
-          <div class="social__rating__stars__single_3">
+          <div class="social__rating__stars__single">
             <img class="social__star"
               class="social__rating__star"
               src="files/icon-star.svg"
@@ -121,7 +112,45 @@
           </div>
         </div>
       </div>
-      <div class="social__review"></div>
+      <div class="social__review">
+        <div class="social__review__card">
+          <div class="social__review__card__profile">
+            <img class="social__review__card__profile__picture" src="files/image-colton.jpg" alt="">
+            <div class="social__review__card__profile__name">
+              <p class="social__review__card__profile__name__p">Colton Smith</p>
+              <p class="social__review__card__profile__name__p2">Verified Buyer</p>
+          </div>
+          </div>
+          <div class="social__review__card__profile__text">"We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"</div>
+        </div>
+        <div class="social__review__card">
+          <div class="social__review__card__profile">
+            <img class="social__review__card__profile__picture" src="files/image-irene.jpg" alt="">
+            <div class="social__review__card__profile__name">
+              <p class="social__review__card__profile__name__p">Irene Roberts</p>
+              <p class="social__review__card__profile__name__p2">Verified Buyer</p>
+            </div>
+          </div>
+          <div class="social__review__card__profile__text">"Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."
+            
+    </div>
+        </div>
+        <div class="social__review__card">
+          <div class="social__review__card__profile">
+            <img class="social__review__card__profile__picture" src="files/image-anne.jpg" alt="">
+            <div class="social__review__card__profile__name">
+              <p class="social__review__card__profile__name__p">Anne Wallace</p>
+              <p class="social__review__card__profile__name__p2">Verified Buyer</p>
+          </div>
+          </div>
+          <div class="social__review__card__profile__text">"Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"        
+        </div>
+        </div>
+      </div>
     </article>
   </body>
 </html>

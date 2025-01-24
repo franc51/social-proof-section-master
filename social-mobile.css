@@ -1,0 +1,92 @@
+.star {
+  background-image: url(files/icon-star.svg);
+  padding: 1rem;
+}
+.social__star {
+  margin: 0 3px;
+}
+.social__proof {
+  background-color: white;
+  font-family: "League Spartan";
+  padding: 1rem;
+}
+.social__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social__description__text {
+}
+.social__description__text_title {
+  font-size: 2rem;
+  color: hsl(300, 43%, 22%);
+  text-align: center;
+  padding: 0 4rem;
+  padding-top: 2rem;
+  font-weight: 900;
+}
+.social__description__text_paragraph {
+  margin-top: 0.5rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.social__description__rating {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.social__rating__stars__single {
+  display: flex;
+  flex-direction: column;
+  gap: rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  color: hsl(300, 43%, 22%);
+}
+.social__rating__stars__single_p {
+  margin-left: 1rem;
+}
+.social__review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: stretch;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+.social__review__card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.5rem;
+  padding: 2rem 1.5rem;
+  flex: 1;
+  height: 14rem;
+}
+.social__review__card__profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.social__review__card__profile__picture {
+  border-radius: 50%;
+  height: 3rem;
+  margin-right: 1rem;
+}
+.social__review__card__profile__name__p {
+  color: hsl(300, 24%, 96%);
+  font-weight: 600;
+}
+.social__review__card__profile__name__p2 {
+  color: hsl(302, 26%, 59%);
+}
+.social__review__card__profile__text {
+  color: rgb(230, 214, 214);
+  line-height: 1.4rem;
+}
